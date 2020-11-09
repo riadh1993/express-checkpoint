@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(202, 199, 199);
+  padding: 25px;
+  margin: 0px 25px;
+}
+nav {
+  background: rgb(44, 43, 43);
+}
+nav ul {
+  display: flex;
+  padding: 20px;
+  margin: 0px 20px;
+  list-style: none;
+  justify-content: center;
+}
+li a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 25px;
+  background: whitesmoke;
+  color: chocolate;
+}
+
+li a:hover {
+  background: grey;
+  transition: 0.3s;
+}
+h1 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: purple;
+  padding: 20px;
+  margin: 20px 0px;
+}
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
